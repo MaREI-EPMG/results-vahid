@@ -1,0 +1,49 @@
+{
+  "name": "mitigation_sectoralcbs",
+  "data": [
+    {
+      "seriesName": "INDCO2N",
+      "seriesValues": [
+        [
+          2025,
+          2703.30075535064
+        ],
+        [
+          2030,
+          1032.26648825862
+        ]
+      ]
+    },
+    {
+      "seriesName": "PWRCO2N",
+      "seriesValues": [
+        [
+          2025,
+          425.51636089859
+        ]
+      ]
+    },
+    {
+      "seriesName": "SRVCO2N",
+      "seriesValues": [
+        [
+          2025,
+          1153.73892005361
+        ]
+      ]
+    },
+    {
+      "seriesName": "TRACO2N",
+      "seriesValues": [
+        [
+          2025,
+          6972.73783295718
+        ],
+        [
+          2030,
+          4558.7941324748
+        ]
+      ]
+    }
+  ]
+}

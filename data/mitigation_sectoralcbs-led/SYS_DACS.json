@@ -1,0 +1,23 @@
+{
+  "name": "mitigation_sectoralcbs-led",
+  "data": [
+    {
+      "seriesName": "INDCO2N",
+      "seriesValues": [
+        [
+          2025,
+          697.527085725378
+        ]
+      ]
+    },
+    {
+      "seriesName": "TRACO2N",
+      "seriesValues": [
+        [
+          2025,
+          4288.74071484075
+        ]
+      ]
+    }
+  ]
+}

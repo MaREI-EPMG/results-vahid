@@ -1,0 +1,50 @@
+{
+  "name": "mitigation_sectoralcbs-led_halfway",
+  "data": [
+    {
+      "seriesName": "INDCO2N",
+      "seriesValues": [
+        [
+          2025,
+          1095.18793267958
+        ]
+      ]
+    },
+    {
+      "seriesName": "PWRCO2N",
+      "seriesValues": [
+        [
+          2025,
+          149.52375759363
+        ]
+      ]
+    },
+    {
+      "seriesName": "RSDCO2",
+      "seriesValues": [
+        [
+          2025,
+          1773.67894500531
+        ]
+      ]
+    },
+    {
+      "seriesName": "SRVCO2N",
+      "seriesValues": [
+        [
+          2025,
+          1034.26801853989
+        ]
+      ]
+    },
+    {
+      "seriesName": "TRACO2N",
+      "seriesValues": [
+        [
+          2025,
+          5331.35560152886
+        ]
+      ]
+    }
+  ]
+}
