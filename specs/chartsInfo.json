@@ -221,23 +221,6 @@
     ],
     "unit": "kt"
   },
-  "TRA_FEC-TRAETH_Mode_Detailed": {
-    "seriesNames": [
-      "DMD_TRA-F-LTRUCK",
-      "DMD_TRA-P-CAR",
-      "DMD_TRA-P-MOT",
-      "DMD_TRA-P-TAXI",
-      "DMD_TRA-R-OTH"
-    ],
-    "colorScale": [
-      "#D1E23C",
-      "#5F363A",
-      "#3420FE",
-      "#85CBAC",
-      "#C005E2"
-    ],
-    "unit": "PJ"
-  },
   "TRA_F-LTRUCK_TYPE": {
     "seriesNames": [
       "DMD_TRA-F-LTRUCK-ICE",
@@ -344,6 +327,23 @@
     ],
     "unit": "Bpkm"
   },
+  "TRA_FEC-TRAETH_Mode_Detailed": {
+    "seriesNames": [
+      "DMD_TRA-P-CAR",
+      "DMD_TRA-P-MOT",
+      "DMD_TRA-P-TAXI",
+      "DMD_TRA-R-OTH",
+      "DMD_TRA-F-LTRUCK"
+    ],
+    "colorScale": [
+      "#5F363A",
+      "#3420FE",
+      "#85CBAC",
+      "#C005E2",
+      "#D1E23C"
+    ],
+    "unit": "PJ"
+  },
   "TRA_P-CAR_TYPE": {
     "seriesNames": [
       "DMD_TRA-P-CAR-BEV",
@@ -439,13 +439,13 @@
   "SYS_FEC-BIOWOOx_Sector": {
     "seriesNames": [
       "FT_IND",
-      "FT_RSD",
-      "FT_SRV"
+      "FT_SRV",
+      "FT_RSD"
     ],
     "colorScale": [
       "#A7398C",
-      "#39A838",
-      "#86AC0F"
+      "#86AC0F",
+      "#39A838"
     ],
     "unit": "PJ"
   },
@@ -603,13 +603,15 @@
       "IMPBIOETH1G_S1",
       "IMPBIOETH1G_S2",
       "SBIORETH03",
-      "SBIORETH01"
+      "SBIORETH01",
+      "SBIORETH02"
     ],
     "colorScale": [
       "#2BB2C1",
       "#D92AD0",
       "#42497B",
-      "#BEDA89"
+      "#BEDA89",
+      "#78B976"
     ],
     "unit": "PJ"
   },
@@ -965,9 +967,9 @@
       "INDGAS",
       "INDKER",
       "INDLPG",
+      "INDBDL",
       "INDBKE",
-      "INDBGS",
-      "INDBDL"
+      "INDBGS"
     ],
     "colorScale": [
       "#849272",
@@ -975,9 +977,9 @@
       "#B0B2B8",
       "#ACB842",
       "#44E806",
+      "#1692D0",
       "#49EE2C",
-      "#80B387",
-      "#1692D0"
+      "#80B387"
     ],
     "unit": "PJ"
   },
@@ -1025,7 +1027,6 @@
   },
   "SYS_LumpInv_Sector_Cumulative": {
     "seriesNames": [
-      "PRC_AGR",
       "PRC_IND",
       "PRC_PWR",
       "PRC_RSD",
@@ -1034,7 +1035,6 @@
       "PRC_TRA"
     ],
     "colorScale": [
-      "#715D47",
       "#A7398C",
       "#E4592B",
       "#39A838",
@@ -1072,7 +1072,6 @@
       "PRC_RSD",
       "PRC_SRV",
       "PRC_TRA",
-      "PRC_AGR",
       "PRC_IND"
     ],
     "colorScale": [
@@ -1081,7 +1080,6 @@
       "#39A838",
       "#86AC0F",
       "#D99C2B",
-      "#715D47",
       "#A7398C"
     ],
     "unit": "MEUR"
@@ -1216,11 +1214,11 @@
       "RSDSOL",
       "RSDKER",
       "RSDLPG",
+      "RSDBDL",
       "RSDETH",
       "RSDCOA",
       "RSDWOO",
-      "RSDHET",
-      "RSDBDL"
+      "RSDHET"
     ],
     "colorScale": [
       "#6CF4EF",
@@ -1232,11 +1230,11 @@
       "#F99928",
       "#B5E679",
       "#09ECB5",
+      "#7D790A",
       "#BA3772",
       "#161315",
       "#B2979C",
-      "#9C427F",
-      "#7D790A"
+      "#9C427F"
     ],
     "unit": "PJ"
   },
@@ -1288,8 +1286,8 @@
       "RSDPEA",
       "RSDSOL",
       "RSDWOO",
-      "RSDBDL",
       "RSDETH",
+      "RSDBDL",
       "RSDBGS"
     ],
     "colorScale": [
@@ -1304,8 +1302,8 @@
       "#7A5C61",
       "#F99928",
       "#B2979C",
-      "#7D790A",
       "#BA3772",
+      "#7D790A",
       "#80B387"
     ],
     "unit": "PJ"
@@ -1398,16 +1396,16 @@
     "seriesNames": [
       "SBIORGAS02",
       "SBIORGAS01",
-      "SBIORGAS03",
       "SBIORGAS05",
-      "SBIORGAS06"
+      "SBIORGAS06",
+      "SBIORGAS03"
     ],
     "colorScale": [
       "#E688AE",
       "#F63ACD",
-      "#311C7E",
       "#AD6978",
-      "#BA2376"
+      "#BA2376",
+      "#311C7E"
     ],
     "unit": "PJ"
   },
@@ -1653,23 +1651,23 @@
     "seriesNames": [
       "TRABDL",
       "TRADST",
-      "TRAETH",
-      "TRAGSL",
       "TRABNG",
       "TRACNG",
       "TRAELC",
       "TRALNG",
+      "TRAETH",
+      "TRAGSL",
       "TRAH2"
     ],
     "colorScale": [
       "#ADD682",
       "#C76AC0",
-      "#23B290",
-      "#EE5257",
       "#06422C",
       "#EABD10",
       "#F2CD60",
       "#E2A0C9",
+      "#23B290",
+      "#EE5257",
       "#F26430"
     ],
     "unit": "PJ"
@@ -1827,11 +1825,13 @@
     "seriesNames": [
       "DMD_TRA-F-MTRUCK",
       "DMD_TRA-P-BUS",
+      "DMD_TRA-P-TAXI",
       "DMD_TRA-F-HTRUCK"
     ],
     "colorScale": [
       "#43B4D2",
       "#B4D24C",
+      "#85CBAC",
       "#628307"
     ],
     "unit": "PJ"
@@ -1932,21 +1932,21 @@
       "R-SW_Apt_GAS_N1",
       "R-SW_Apt_KER_N1",
       "R-SW_Apt_HET_N2",
-      "R-SW_Apt_HET_N1",
       "R-SH_Apt_ELC_HPN2-AB",
-      "R-WH_Apt_ELC_N1",
       "R-SH_Apt_ELC_HPN2-C",
+      "R-WH_Apt_ELC_N1",
       "R-SH_Apt_ELC_HPN2-D",
       "R-SH_Apt_ELC_HPN2-E",
       "R-SH_Apt_ELC_HPN2-F",
-      "R-SH_Apt_ELC_HPN2-G"
+      "R-SH_Apt_ELC_HPN2-G",
+      "R-WH_Apt_SOL_N1"
     ],
     "colorScale": [
       "#5052B4",
       "#34ED71",
       "#A020F0",
       "#123163",
-      "#FCD0CD",
+      "#A020F0",
       "#A020F0",
       "#A020F0",
       "#A020F0",
@@ -1962,28 +1962,28 @@
       "R-SC_Att_ELC_N1",
       "R-SW_Att_GAS_N1",
       "R-SW_Att_HET_N1",
-      "R-SW_Att_HET_N2",
       "R-SW_Att_KER_N1",
       "R-SW_Att_HVO_N1",
+      "R-SW_Att_HET_N2",
       "R-SH_Att_ELC_HPN2-AB",
       "R-SH_Att_FPL_N1",
+      "R-SW_Att_FPL_N1",
       "R-WH_Att_ELC_N1",
       "R-SH_Att_ELC_HPN2-C",
       "R-WH_Att_SOL_N1",
-      "R-SW_Att_FPL_N1",
       "R-SH_Att_GAS_N1"
     ],
     "colorScale": [
       "#F7E125",
       "#CB5837",
       "#98BBC5",
-      "#0361B8",
       "#A020F0",
       "#693529",
+      "#0361B8",
       "#A020F0",
       "#C818F0",
-      "#7383C7",
       "#A020F0",
+      "#7383C7",
       "#A020F0",
       "#A020F0",
       "#A020F0"
